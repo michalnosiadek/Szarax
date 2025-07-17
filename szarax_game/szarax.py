@@ -23,7 +23,6 @@ class Szarax:
             head[1] + self.direction[1] * TILE_SIZE,
         )
 
-        # Wall bounce
         new_head = (
             max(0, min(new_head[0], TILE_SIZE * 47)),
             max(0, min(new_head[1], TILE_SIZE * 23)),
